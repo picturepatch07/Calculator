@@ -34,6 +34,9 @@
 }
 
 .button {
+    border-radius: 5px;
+    background-color: rgb(83, 83, 87);
+    color: white;
     border: 0.5px solid #999;
     line-height: 100px;
     text-align: center;
@@ -42,7 +45,7 @@
 }
 
 #equal {
-    background-color: green;
+    background-color: rgb(25, 122, 233);
     color: white;
 }
 
