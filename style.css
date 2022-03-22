@@ -23,20 +23,20 @@
 
 .buttons {
     display: grid;
-    border-bottom: 1px solid #999;
-    border-left: 1px solid#999;
+    border-bottom: 1px solid #ecf0f3;
+    border-left: 1px solid#ecf0f3;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .buttons > div {
-    border-top: 1px solid #999;
-    border-right: 1px solid#999;
+    border-top: 1px solid #ecf0f3;
+    border-right: 1px solid#ecf0f3;
 }
 
 .button {
     border-radius: 5px;
     background-color: rgb(83, 83, 87);
-    color: white;
+    color: #ecf0f3;
     border: 0.5px solid #999;
     line-height: 100px;
     text-align: center;
