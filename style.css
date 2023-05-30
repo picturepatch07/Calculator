@@ -1,56 +1,56 @@
-*{
-    margin: 0;
-    padding: 0;
-    background-color: #ecf0f3;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    outline: none;
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #445664;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  outline: none;
 }
 
 .container {
-    max-width: 400px;
-    margin: 10vh auto 0 auto;
-    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+  max-width: 400px;
+  margin: 10vh auto 0 auto;
+  box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
 }
 
 #display {
-    text-align: right;
-    height: 70px;
-    line-height: 70px;
-    padding: 16px 8px;
-    font-size: 25px;
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  padding: 16px 8px;
+  font-size: 25px;
 }
 
 .buttons {
-    display: grid;
-    border-bottom: 1px solid #ecf0f3;
-    border-left: 1px solid#ecf0f3;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  border-bottom: 1px solid #ecf0f3;
+  border-left: 1px solid#ecf0f3;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .buttons > div {
-    border-top: 1px solid #ecf0f3;
-    border-right: 1px solid#ecf0f3;
+  border-top: 1px solid #ecf0f3;
+  border-right: 1px solid#ecf0f3;
 }
 
 .button {
-    border-radius: 5px;
-    background-color: rgb(83, 83, 87);
-    color: #ecf0f3;
-    border: 0.5px solid #999;
-    line-height: 100px;
-    text-align: center;
-    font-size: 25px;
-    cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(83, 83, 87);
+  color: #ecf0f3;
+  border: 0.5px solid #999;
+  line-height: 100px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
 }
 
 #equal {
-    background-color: rgb(25, 122, 233);
-    color: white;
+  background-color: rgb(25, 122, 233);
+  color: white;
 }
 
 .button:hover {
-    background-color: #323330;
-    color: white;
-    transition: 0.5s ease-in-out;
+  background-color: #323330;
+  color: white;
+  transition: 0.5s ease-in-out;
 }
